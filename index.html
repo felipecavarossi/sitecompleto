@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GameZone  - Início</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTTX5N+ig+0DEzEkN5qkGHhB8pZVWBSM2Z3RgXtY94Uyq+uvrNtnkOe16Mv6o9E1peP3F/1E+Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="imagem/images.png" alt="Logo da Empresa" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Início</a></li>
+                    <li><a href="produtos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <div class="container">
+                <h2>O que fazemos</h2>
+                <p>A GameXperience oferece soluções criativas para a indústria de games, desde desenvolvimento de jogos até eventos e experiências imersivas.</p>
+            </div>
+        </section>
+
+        <section id="missao-visao">
+            <div class="container">
+                <div class="mission-vision">
+                    <div class="mission">
+                        <h2>Missão</h2>
+                        <p>Criar experiências de jogo memoráveis e imersivas que conectem jogadores em todo o mundo.</p>
+                    </div>
+                    <div class="vision">
+                        <h2>Visão</h2>
+                        <p>Ser referência mundial em inovação e entretenimento para gamers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="multimidia">
+            <div class="container">
+                <h2>Experimente nossa  GameZone !</h2>
+                <div class="media-content">
+                    <audio controls>
+                        <source src="som/videoplayback.m4a" type="audio/mp3">
+                        Seu navegador não suporta o áudio.
+                    </audio>
+                    <div class="video-container">
+                        <iframe src="video/EVOLUÇÃO DO PLAYSTATION.mp4" title="Vídeo da GameXperience" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Adicionando uma seção para o Quiz -->
+        <section id="quiz-section">
+            <div class="container">
+               
+                <button id="play-again-button" class="btn" style="display:none;">Responder Novamente</button>
+                <div id="result"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024  GameZone . Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
